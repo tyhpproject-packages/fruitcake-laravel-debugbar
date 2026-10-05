@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/fruitcake-laravel-debugbar",
+    "description": "Tyhp type definitions for fruitcake/laravel-debugbar 4.4.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.4.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/fruitcake-laravel-debugbar-impl": "~4.4.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/fruitcake-laravel-debugbar-impl"
+        }
+    }
+}
